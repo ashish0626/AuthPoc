@@ -19,8 +19,8 @@ namespace JwtTokenPoc.Controllers
             return Ok($"Hi {currentUser.GivenName}, you are an {currentUser.Role}");
         }
 
-        [HttpGet("Develope")]
-        [Authorize(Roles = "Develope")]
+        [HttpGet("Developers")]
+        [Authorize(Roles = "Developers")]
         public IActionResult DevelopeEndpoint()
         {
             var currentUser = GetCurrentUser();
@@ -28,8 +28,8 @@ namespace JwtTokenPoc.Controllers
             return Ok($"Hi {currentUser.GivenName}, you are a {currentUser.Role}");
         }
 
-        [HttpGet("AdminsAndDevelope")]
-        [Authorize(Roles = "Administrator,Develope")]
+        [HttpGet("AdminsAndDevelopers")]
+        [Authorize(Roles = "Administrator,Developers")]
         public IActionResult AdminsAndSellersEndpoint()
         {
             var currentUser = GetCurrentUser();
