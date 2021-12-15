@@ -47,9 +47,9 @@ namespace JwtTokenPoc
             {
                 c.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Place Info Service API",
+                    Title = "Auth Service ",
                     Version = "v2",
-                    Description = "Sample service for Learner",
+                    Description = "Auth",
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -107,7 +107,7 @@ namespace JwtTokenPoc
                 endpoints.MapControllers();
             });
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "PlaceInfo Services"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Auth Services"));
         }
     }
 }

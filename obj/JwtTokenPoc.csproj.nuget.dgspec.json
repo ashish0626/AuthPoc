@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JwtTokenPoc\\JwtTokenPoc.csproj": {}
+    "D:\\AuthPoc\\JwtTokenPoc.csproj": {}
   },
   "projects": {
-    "D:\\JwtTokenPoc\\JwtTokenPoc.csproj": {
+    "D:\\AuthPoc\\JwtTokenPoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JwtTokenPoc\\JwtTokenPoc.csproj",
+        "projectUniqueName": "D:\\AuthPoc\\JwtTokenPoc.csproj",
         "projectName": "JwtTokenPoc",
-        "projectPath": "D:\\JwtTokenPoc\\JwtTokenPoc.csproj",
+        "projectPath": "D:\\AuthPoc\\JwtTokenPoc.csproj",
         "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-        "outputPath": "D:\\JwtTokenPoc\\obj\\",
+        "outputPath": "D:\\AuthPoc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

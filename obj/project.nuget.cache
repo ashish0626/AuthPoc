@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "boSFUDLWUM/w7Cxj9CsqRdS5oh/FdcufFyWPh2tfRYA1wyA9R1iKAdhPR+GgdNCS6z/iU5bnNs6IeIdIVDULMQ==",
+  "dgSpecHash": "U97KyGuXimfrY7/Rxtd7Pm7vMLH/GVQyrP9ABsFHaw5yn91xLVnUuLy+s1l86eLoKwr2xzkIpDPkeeK3sd162Q==",
   "success": true,
-  "projectFilePath": "D:\\JwtTokenPoc\\JwtTokenPoc.csproj",
+  "projectFilePath": "D:\\AuthPoc\\JwtTokenPoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
