@@ -29,6 +29,13 @@ namespace JwtTokenPoc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => {
                     options.TokenValidationParameters = new TokenValidationParameters
@@ -100,7 +107,7 @@ namespace JwtTokenPoc
             app.UseAuthentication();
 
             app.UseAuthorization();
-
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {
