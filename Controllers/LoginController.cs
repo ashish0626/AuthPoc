@@ -22,7 +22,7 @@ namespace JwtTokenPoc.Controllers
             _config = config;
         }
         [AllowAnonymous]
-        [HttpPost]
+        [HttpPost("Login")]
         public IActionResult Login([FromBody] UserLogin userLogin)
         {
             var user = Authenticate(userLogin);
