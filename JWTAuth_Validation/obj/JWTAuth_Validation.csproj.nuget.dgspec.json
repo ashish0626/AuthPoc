@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {}
+    "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {}
   },
   "projects": {
-    "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {
+    "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
+        "projectUniqueName": "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
         "projectName": "JWTAuth_Validation",
-        "projectPath": "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
+        "projectPath": "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
         "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-        "outputPath": "D:\\AuthPoc\\JWTAuth_Validation\\obj\\",
+        "outputPath": "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,7 +21,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -44,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

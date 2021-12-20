@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qWACkLGREk1j0eMyVuUG4i7R8Lxmfm8TAlgvP8Aul2w=",
+  "Source": "JWTAuth_Validation",
+  "BasePath": "_content/JWTAuth_Validation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e946722b-d2f4-462d-9d12-cfa0f77d357a": {
+      "ProjectGuid": "e946722b-d2f4-462d-9d12-cfa0f77d357a",
+      "DisplayName": "JWTAuth_Validation",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
