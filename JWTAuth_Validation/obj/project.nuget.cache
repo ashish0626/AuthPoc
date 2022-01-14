@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7lhB8TQA2r/V1Y1TcLN2TQsrCxfbbuH3dWp6ISvNXnXmd4BSz2oNLIT1i0Dfsrr3FYWy3IzYchcqGwmGbdByA==",
+  "dgSpecHash": "znvHKYfS2wUXABsrS5z+gdhuODAjNHcBnmjU/r99sfLqyWp3QjsEsUnmaVddjaxEmdd66Rb7YtSuzuQSz5yRJA==",
   "success": true,
-  "projectFilePath": "D:\\GitPublic\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
+  "projectFilePath": "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -13,6 +13,7 @@
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
