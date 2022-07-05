@@ -1,4 +1,5 @@
-﻿using JWTAuth_Validation.Services;
+﻿using JWTAuth_Validation.Model;
+using JWTAuth_Validation.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -61,6 +62,19 @@ namespace JWTAuth_Validation.Controllers
             return tokenHandler.WriteToken(token);
         }
 
+
+        // GET api/placeinfo/id
+        [AllowAnonymous]
+        [HttpPost(nameof(loginAuth))]
+
+        public IActionResult loginAuth(string userName, string password)
+        {
+            EmployeeModel placeInfo = _userService.Find( userName,  password);
+            if (placeInfo == null)
+                return NotFound();
+            else
+                return new ObjectResult(placeInfo);
+        }
     }
     #region JsonProperties  
     /// <summary>  

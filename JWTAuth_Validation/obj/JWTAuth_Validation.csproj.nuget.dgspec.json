@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {}
+    "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {}
   },
   "projects": {
-    "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {
+    "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
+        "projectUniqueName": "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
         "projectName": "JWTAuth_Validation",
-        "projectPath": "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
+        "projectPath": "D:\\AuthPoc\\JWTAuth_Validation\\JWTAuth_Validation.csproj",
         "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-        "outputPath": "D:\\GRS\\POC_1\\AuthPoc\\JWTAuth_Validation\\obj\\",
+        "outputPath": "D:\\AuthPoc\\JWTAuth_Validation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,12 +24,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://localhost/SST/offLineNuget.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://contoso.com/packages/": {},
-          "https://dotnet.microsoft.com/en-us/": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -58,6 +53,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.1.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
